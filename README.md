@@ -3,7 +3,7 @@
 
 <p align='left' style="text-align:left;font-size:1.2em;">
 <b>
-    [<a href="https://arxiv.org/abs/2402.08567" target="_blank" style="text-decoration: none;">arXiv</a>]
+    [<a href="https://arxiv.org/abs/2410.10781" target="_blank" style="text-decoration: none;">arXiv</a>]
 </b>
 </p>
 
@@ -104,7 +104,7 @@ Unless extra instructions, the followed experiments need 4 GPUs with at least 40
 Run the default setup:
 
 ```shell
-bash scripts/run_default.sh
+bash scripts/run_defaults_60m.sh
 ```
 
 The final checkpoint is saved at `checkpoints/tinyllama_60M/iter-020000-ckpt.pth`.
@@ -135,7 +135,7 @@ We provide all the scripts to reproduce our experimental results in the main pap
 </p>
 
 
-Finally, we scale up the model size to 1B parameters and find still no attention sink and massive activations.
+Finally, we scale up the model size to 1B parameters and find still no attention sink and massive activations. By default, we use 8 GPUs to run the following scripts
 
 ```shell
 bash scripts/run_defaults_1b.sh
@@ -144,12 +144,12 @@ bash scripts/run_sigmoid_1b.sh
 
 
 
-# Bibtex
+<!-- # Bibtex
 If you find this project useful in your research, please consider citing our paper:
 
 ```
 
-```
+``` -->
 
 # Acknowledgements
 
