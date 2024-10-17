@@ -144,12 +144,17 @@ bash scripts/run_sigmoid_1b.sh
 
 
 
-<!-- # Bibtex
+# Bibtex
 If you find this project useful in your research, please consider citing our paper:
 
 ```
-
-``` -->
+@article{gu2024attention,
+  title={When Attention Sink Emerges in Language Models: An Empirical View},
+  author={Gu, Xiangming and Pang, Tianyu and Du, Chao and Liu, Qian and Zhang, Fengzhuo and Du, Cunxiao and Wang, Ye and Lin, Min},
+  journal={arXiv preprint arXiv:2410.10781},
+  year={2024}
+}
+```
 
 # Acknowledgements
 
